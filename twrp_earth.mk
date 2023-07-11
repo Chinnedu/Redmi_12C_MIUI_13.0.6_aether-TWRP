@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit from earth device
-$(call inherit-product, device/infinix/X6812/device.mk)
+$(call inherit-product, device/xiaomi/earth/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
